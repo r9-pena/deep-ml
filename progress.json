@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:55:02.829Z",
+  "generated_at": "2026-10-26T14:04:45.359Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -50,6 +50,17 @@
       "last_pushed_at": "2026-10-26T13:55:01.399Z",
       "language": "python",
       "lines": 27
+    },
+    "math:13": {
+      "kind": "math",
+      "id": "13",
+      "title": "Solving Linear Systems",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/13",
+      "path": "math/0013-solving-linear-systems",
+      "first_solved_at": "2026-10-26T14:04:44.563Z",
+      "last_pushed_at": "2026-10-26T14:04:44.563Z"
     }
   }
 }
