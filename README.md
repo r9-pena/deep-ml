@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**26** solved · 15 problems · 2 labs · 9 math
+**27** solved · 15 problems · 2 labs · 10 math
 
 ![Coverage](./coverage.svg)
 
@@ -47,6 +47,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Least Squares and the Normal Equations](https://www.deep-ml.com/math-problems/34) | medium | 2026-11-03 | [solution](math/0034-least-squares-and-the-normal-equations) |
 | [Orthogonality and Projections](https://www.deep-ml.com/math-problems/14) | medium | 2026-11-03 | [solution](math/0014-orthogonality-and-projections) |
 | [Solving Linear Systems](https://www.deep-ml.com/math-problems/13) | medium | 2026-10-26 | [solution](math/0013-solving-linear-systems) |
+| [Training Error, Test Error and the Bayes Rate](https://www.deep-ml.com/math-problems/104) | medium | 2026-11-23 | [solution](math/0104-training-error-test-error-and-the-bayes-rate) |
 | [Matrix Decompositions: LU and QR](https://www.deep-ml.com/math-problems/15) | hard | 2026-10-26 | [solution](math/0015-matrix-decompositions-lu-and-qr) |
 
 ---
