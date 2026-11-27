@@ -43,17 +43,17 @@ def l1_regularization_gradient_descent(X: np.ndarray, y: np.ndarray, alpha: floa
     bias = 0.0
     
     # Your code here
-    for _ in range(max_iter):
-        error = X @ weights + bias - y
-        w_gradient = (X.T @ error) / n_samples
-        bias_gradient = error.mean()
+    for i in range(max_iter):
+        error = X@weights+bias-y
+        w_gradient =(1/n_samples)*X.T@(error)
+        bias_gradient = np.mean(error)
 
-        w_temp = weights - learning_rate * w_gradient
-        w_new = soft_threshold(w_temp, learning_rate * alpha)
-        bias_new = bias - learning_rate * bias_gradient
+        w_temp = weights - learning_rate*w_gradient
+        w_new = soft_threshold(w_temp,learning_rate*alpha)
 
-        w_change = np.linalg.norm(w_new - weights)
-        weights, bias = w_new, bias_new
+        bias = bias - learning_rate*bias_gradient
+        w_change = np.linalg.norm(w_new-weights)
+        weights = w_new
 
         if w_change < tol:
             break
